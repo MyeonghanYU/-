@@ -1,0 +1,9 @@
+{
+  "name": "yoomyunghan-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && npx --yes serve dist"
+  }
+}
